@@ -1,14 +1,6 @@
-# Author: Clover Arrison
-# Assignment / Part: HW2
-# Date due: 10/4/2026
-# I pledge that I have completed this assignment without
-# collaborating with anyone else, in conformance with the
-# NYU School of Engineering Policies and Procedures on
-# Academic Misconduct.
-
 import sys
 class World:
-    def __init__(self, world_file_name="life.txt", world_size= (0,0)):
+    def __init__(self, world_file_name="20x8life.txt", world_size= (0,0)):
         self.world_file_name = str(world_file_name)
         self.world_size = tuple(world_size)
         self.generation = 0
